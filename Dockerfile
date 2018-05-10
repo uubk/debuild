@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:jessie
 MAINTAINER maxf <git@njsm.de>
 
 RUN apt-get update -qq && \
